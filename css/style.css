@@ -200,6 +200,7 @@ h6 {
   background-color: var(--base-color);
   cursor: pointer;
   display: none;
+  border: none;
   border-radius: var(--border-rad);
 }
 @media (max-width: 992px) {
@@ -713,6 +714,10 @@ footer .copyright p {
 }
 footer .social li {
   margin-right: 10px;
+}
+footer .social li i:hover {
+  background-color: var(--white);
+  transition: var(--main-transition);
 }
 footer .social li a {
   color: var(--bg-color-alt);
